@@ -1,36 +1,26 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Cynbit AI Discovery Studio — Interactive Project Scoping & Architecture Estimator
 
-## Getting Started
+A full-stack interactive discovery and project estimation prototype built for **Cynbit Technologies** (`cynbit.in`).
 
-First, run the development server:
+### Quick Access Links
+* **GitHub Repository:** [cynbit-ai-discovery-studioAssessment](https://github.com/sanya-p28/cynbit-ai-discovery-studioAssessment)[cite: 10]
+* **Live Vercel Deployment:** [View Live App](https://cynbit-ai-discovery-studio-assessme.vercel.app/)
+* **Technical Report:** [Google Doc Assessment Report](https://docs.google.com/document/d/1Uh_GH_-P42mUSUT7XAErwBV_Z47vc7mZn3ZNK4-a00Q/edit?usp=sharing)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Problem Statement
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Prospective B2B clients visiting `cynbit.in` previously encountered static contact forms with no interactive way to scope technical requirements, understand recommended system architectures, or estimate project timelines and budgets before booking a call.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Solution & Key Features
 
-## Learn More
+* **3-Step Interactive Scoping Wizard:** Guides users through selecting solution domains, scaling parameters, and integration requirements.
+* **Dynamic Architecture Blueprint Generator:** Instantly computes tailored tech stacks, sprint milestones, and budget breakdowns.
+* **Internal Leads Dashboard:** Provides real-time visibility into captured client briefs and technical configurations.
 
-To learn more about Next.js, take a look at the following resources:
+## Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+* **Framework:** Next.js 15 (App Router) & TypeScript
+* **Styling:** Tailwind CSS & Lucide React Icons
+* **Deployment:** Vercel
